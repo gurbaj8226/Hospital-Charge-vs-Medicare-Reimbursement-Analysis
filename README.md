@@ -66,7 +66,7 @@ Dashboard components include:
 - A provider scatter plot comparing total discharges with weighted ratio
 - A state filter for reviewing provider-level patterns within selected states
 
-![Tableau Dashboard](images/project_6_tableau_dashboard.png)
+![Tableau Dashboard](visual/project_6_tableau_dashboard.png)
 
 ## Tableau Public Link
 
