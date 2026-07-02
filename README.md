@@ -7,6 +7,20 @@ This project analyzes 2024 CMS Medicare inpatient hospital data to identify patt
 ## Business Question
 Which states, DRGs, and providers show the largest gaps between submitted charges and Medicare payments?
 
+## Business and Healthcare Context
+
+Medicare inpatient reimbursement is organized around Diagnosis-Related Groups, or DRGs, which group inpatient cases with similar clinical characteristics and expected resource needs. Hospitals submit covered charges for each provider-DRG combination, while Medicare pays according to reimbursement rules that may differ substantially from the submitted charge amount.
+
+This project focuses on the gap between submitted covered charges and Medicare payments. From a hospital finance perspective, large charge-to-payment gaps may be relevant for chargemaster review, service-line financial analysis, and payer contract discussions. From a payer or policy perspective, these gaps can show variation across states, DRGs, and providers that may require closer review.
+
+However, submitted covered charges are not the same as actual hospital costs, and Medicare payments are not the same as total hospital revenue. A high charge-to-Medicare payment ratio should be interpreted as a charge-to-payment gap, not as proof of fraud, overcharging, poor quality, or operational inefficiency.
+
+## Notebook Access
+
+GitHub may occasionally fail to render `ipynb` files correctly. Use the nbviewer links below for reliable notebook viewing.
+
+https://nbviewer.org/github/gurbaj8226/Hospital-Charge-vs-Medicare-Reimbursement-Analysis/blob/main/notebook/medicare_charge_gap_analysis.ipynb
+
 ## Dataset
 
 This project uses the **2024 CMS Medicare Inpatient Hospitals by Provider and Service** dataset, also known as the Medicare IPPS provider-and-service dataset.
@@ -53,6 +67,14 @@ Where:
 This weighted approach gives more influence to provider-DRG rows with higher discharge volume and reduces the risk of low-volume rows distorting the results.
 
 Provider-level analysis uses `rndrng_prvdr_ccn` as the primary provider identifier, with hospital name and state included for readability. DRG and provider summaries were filtered to include only groups with at least **100 total discharges**.
+
+## Exploratory Python Visualizations
+
+Before building the final Tableau dashboard, Python visualizations were used to explore early state-level and DRG-level patterns. These charts helped identify high- and low-ratio states, evaluate the effect of volume thresholds, and inspect which DRGs showed the largest charge-to-Medicare payment gaps.
+
+The Python charts were exploratory and supported the dashboard design process. The final presentation of results is handled through the Tableau dashboard, which uses the discharge-weighted ratio as the primary metric.
+
+See the notebook section: [Exploratory Python Visualizations](notebook/medicare_charge_gap_analysis.ipynb#exploratory-python-visualizations)
 
 ## Tableau Dashboard
 
@@ -140,7 +162,7 @@ Project-6-Medicare-Charge-Gap/
 │
 ├── data/
 │   ├── raw/
-│   │   └── Medicare_IP_Hospitals_by_Provider_and_Service_2024.csv
+│   │   └── Medicare_IP_Hospitals_by_Provider_and_Service_2024.csv      (not tracked)
 │   └── tableau_exports/
 │       ├── state_summary_final.csv
 │       ├── drg_summary_final.csv
