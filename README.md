@@ -74,7 +74,9 @@ Before building the final Tableau dashboard, Python visualizations were used to 
 
 The Python charts were exploratory and supported the dashboard design process. The final presentation of results is handled through the Tableau dashboard, which uses the discharge-weighted ratio as the primary metric.
 
-See the notebook section: [Exploratory Python Visualizations](notebook/medicare_charge_gap_analysis.ipynb#exploratory-python-visualizations)
+The exploratory matplotlib/seaborn charts are included in the notebook under the section **“Exploratory Python Visualizations.”** These charts were used during EDA to inspect early state-level and DRG-level patterns before building the final Tableau dashboard.
+
+See notebook: [medicare_charge_gap_analysis.ipynb](notebook/medicare_charge_gap_analysis.ipynb)
 
 ## Tableau Dashboard
 
