@@ -1,0 +1,9 @@
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+
+# Optional: ignore raw data if file is too large
+data/raw/*.csv
+
+# Keep Tableau-ready exports
+!data/tableau_exports/*.csv
