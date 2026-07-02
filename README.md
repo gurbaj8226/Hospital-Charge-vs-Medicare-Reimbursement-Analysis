@@ -70,7 +70,7 @@ Dashboard components include:
 
 ## Tableau Public Link
 
-Tableau Public dashboard: `[Add Tableau Public link here after publishing]`
+Tableau Public dashboard: `https://public.tableau.com/app/profile/gurbaj.singh6229/viz/project_6_medicare_charge_gap/MedicareCharge-to-PaymentGapAnalysis#1`
 
 ## Key Findings
 
@@ -92,10 +92,7 @@ Tableau Public dashboard: `[Add Tableau Public link here after publishing]`
 2. **Payer and reimbursement teams should benchmark high-ratio states against national and regional patterns.**  
    States such as Nevada and Florida showed high weighted ratios, while Maryland showed a much lower ratio. These differences may reflect reimbursement policy, provider mix, service mix, or market structure and should be interpreted with additional context.
 
-3. **Provider-level outliers should be reviewed using CCN-based identifiers rather than hospital names alone.**  
-   Provider CCN is more reliable than organization name for identifying facilities. High-ratio providers should be reviewed with additional operational, payer-mix, and service-line data before drawing conclusions.
-
-4. **Analysts should use weighted ratios for executive reporting.**  
+3. **Analysts should use weighted ratios for executive reporting.**  
    Simple averages can overstate the influence of low-volume provider-DRG rows. Discharge-weighted ratios provide a more stable view of charge-to-payment gaps across states, DRGs, and providers.
 
 ## Limitations
@@ -107,6 +104,7 @@ Tableau Public dashboard: `[Add Tableau Public link here after publishing]`
 - Discharge volume is used as a proxy for operational scale, but it does not capture hospital size, case complexity, staffing, or resource use directly.
 - State-level differences may reflect payment policy, provider mix, service mix, geographic adjustments, teaching status, or other factors not fully captured in this analysis.
 - The analysis is descriptive, not causal or predictive.
+- Provider CCN is more reliable than organization name for identifying facilities. High-ratio providers should be reviewed with additional operational, payer-mix, and service-line data before drawing conclusions.
 
 ## Tools Used
 
