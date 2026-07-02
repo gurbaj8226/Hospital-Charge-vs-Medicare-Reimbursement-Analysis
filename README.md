@@ -70,7 +70,7 @@ Dashboard components include:
 
 ## Tableau Public Link
 
-Tableau Public dashboard: `https://public.tableau.com/app/profile/gurbaj.singh6229/viz/project_6_medicare_charge_gap/MedicareCharge-to-PaymentGapAnalysis#1`
+Tableau Public dashboard: https://public.tableau.com/app/profile/gurbaj.singh6229/viz/project_6_medicare_charge_gap/MedicareCharge-to-PaymentGapAnalysis#1
 
 ## Key Findings
 
