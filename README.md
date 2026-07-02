@@ -25,7 +25,7 @@ The analysis focuses on Original Medicare inpatient activity for IPPS hospitals.
 ### Key Fields
 
 | Field | Description |
-
+|---|---|
 | `rndrng_prvdr_ccn` | CMS Certification Number used as the primary provider identifier. |
 | `rndrng_prvdr_org_name` | Provider or hospital organization name. |
 | `rndrng_prvdr_state_abrvtn` | Provider state abbreviation. |
@@ -147,10 +147,10 @@ Project-6-Medicare-Charge-Gap/
 │       ├── provider_summary_final.csv
 │       └── kpi_summary_final.csv
 │
-├── images/
+├── visual/
 │   └── project_6_tableau_dashboard.png
 │
-├── notebooks/
+├── notebook/
 │   └── medicare_charge_gap_analysis.ipynb
 │
 ├── tableau/
